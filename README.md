@@ -54,7 +54,8 @@ Create a database named `books` and a table using:
 CREATE TABLE mybooks (
   id SERIAL PRIMARY KEY,
   title TEXT NOT NULL,
-  summary TEXT
+  summary TEXT,
+  url TEXT
 );
 ```
 
